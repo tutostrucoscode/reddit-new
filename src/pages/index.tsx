@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Header from '@/components/Header'
 
 export default function Home() {
   return (
@@ -9,8 +7,7 @@ export default function Home() {
       <Head>
         <title>Reddit 2.0 Clone</title>
       </Head>
-
-      <Header/>
+      <h1>Helloo</h1>
     </div>
   )
 }
